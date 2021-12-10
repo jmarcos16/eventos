@@ -21,10 +21,8 @@ Route::get('/', function () {
 });
 
 Route::get('/products', function () {
-
-    $arr = [10,2,3,4,5,6,7,8,9];
-
-    return view('products', ['arr' => $arr]);
+    $busca = request('search');
+    return view('products', ['busca' => $busca]);
 });
 
 Route::get('/products_teste/{id?}', function ($id = null) {

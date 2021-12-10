@@ -23,6 +23,31 @@
     </head>
     <body>
 
+    <!--Cabeçalho do site -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="collapse navbar-collapse" id="navbar">
+                <a href="" class="navbar-brand">
+                    <img src="/img/logo_xpm.webp" alt="JM Events">
+                </a>
+                <ul class="navbar-nav">
+                    <li class="navbar-item">
+                        <a href="/" class="nav-link">Home</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="/eventos" class="nav-link">Eventos</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="/entrar" class="nav-link">Entrar</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="/cadastrar" class="nav-link">Cadastrar</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
     @yield ('content')
     <footer>
         <p>JM Events  &Copy; 2021</p>
