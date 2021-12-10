@@ -6,8 +6,9 @@
 
     <h2>Tela de Produtos</h2>
 
-    @if($busca !='')
-       <p> O Usuario esta buscando por {{$busca}} </p>
-    @endif
+    
+    {{$nome}}
+    
+  
 
 @endsection

@@ -4,8 +4,6 @@
 
 @section('content')
 
-    @if($id == null)
-    <p>Você não passou nenhuddwdm id</p>
-    @endif
+    dwadaw
     
 @endsection
