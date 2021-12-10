@@ -5,7 +5,7 @@
 @section('content')
 
     @if($id == null)
-    <p>Você não passou nenhum id</p>
+    <p>Você não passou nenhuddwdm id</p>
     @endif
     
 @endsection
