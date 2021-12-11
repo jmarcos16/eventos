@@ -38,10 +38,16 @@
                         <a href="/eventos" class="nav-link">Eventos</a>
                     </li>
                     <li class="navbar-item">
+                        <a href="/events/create" class="nav-link">Criar Evento</a>
+                    </li>
+                    <li class="navbar-item">
                         <a href="/entrar" class="nav-link">Entrar</a>
                     </li>
                     <li class="navbar-item">
                         <a href="/cadastrar" class="nav-link">Cadastrar</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="/contact" class="nav-link">Contato</a>
                     </li>
                 </ul>
             </div>
@@ -52,6 +58,9 @@
     <footer>
         <p>JM Events  &Copy; 2021</p>
     </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
         
     </body>
 </html>

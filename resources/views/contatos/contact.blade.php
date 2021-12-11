@@ -1,14 +1,10 @@
+
 @extends('layouts.main')
 
 @section('title', 'Produtos')
 
 @section('content')
 
-    <h2>Tela de Produtos</h2>
-
-    
-    
-    
+    <h2>Tela para contatos</h2>
   
-
 @endsection

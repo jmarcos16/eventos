@@ -11,4 +11,8 @@ class EventController extends Controller
 
         return view('products',['nome' => $nome]);
     }
+
+    public function create(){
+        return view('events.create');
+    }
 }
