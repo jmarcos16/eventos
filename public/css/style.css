@@ -12,7 +12,7 @@ body{
 
 header{
     background-color: #fff;
-    border-bottom: #ccc;
+    border-bottom:1px solid #ccc;
 }
 
 .row{
