@@ -46,9 +46,6 @@
                     <li class="navbar-item">
                         <a href="/cadastrar" class="nav-link">Cadastrar</a>
                     </li>
-                    <li class="navbar-item">
-                        <a href="/contact" class="nav-link">Contato</a>
-                    </li>
                 </ul>
             </div>
         </nav>
@@ -56,7 +53,7 @@
 
     @yield ('content')
     <footer>
-        <p>JM Events  &Copy; 2021</p>
+        <p>Copyright © 2021 | JM Events - Todos os Direitos Reservados</p>
     </footer>
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
