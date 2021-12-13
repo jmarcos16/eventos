@@ -1,10 +1,9 @@
 
 ## Sobre o projéto
 
-Projeto focado em criar um sistema de eventos simples, o objetivo desse projéto é melhorar minhas abilidade com laravel.
+Projeto focado em criar um sistema de eventos simples utilizando o framework laravel, o objetivo desse projéto é melhorar minhas abilidade com o laravel.
 
 ## Como instalar o sistema no seu Local host
-
 
 Primeiramente você deve copiar o link do repositório e rodar o seguinte comando no ser terminal no diretório em que você deseja instalar.
 
@@ -14,40 +13,33 @@ Primeiramente você deve copiar o link do repositório e rodar o seguinte comand
 
 ```
 
-## Laravel Sponsors
+Em seguida rode os seguintes comandos no terminal.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+```
+$ cd events/
+$ cp .env.example .env
+$ nano .env
+$ composer install
+$ artisan key:generate 
 
-### Premium Partners
+```
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[CMS Max](https://www.cmsmax.com/)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-- **[Romega Software](https://romegasoftware.com)**
+Lembrando que sera necessário ter o composer e o PHP já instalado.
 
-## Contributing
+Em seguida vá ate o arquivo .env e procure pelo campo abaixo.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+```
 
-## Code of Conduct
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=events
+DB_USERNAME=root
+DB_PASSWORD=
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+```
 
-## Security Vulnerabilities
+Depois vá ate o seu banco de dados e crie um novo banco com o nome events no modo utf8mb4_unicode_ci.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Depois de seguir essa etapas o sistema ja estará funcionando.
 
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
