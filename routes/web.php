@@ -13,3 +13,6 @@ Route::post('/events', [EventController::class, 'store']);
 Route::get('/contact', [ContactController::class, 'contact']);
 
 Route::get('/products', [ProductController::class, 'product']);
+Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
+    return view('dashboard');
+})->name('dashboard');
