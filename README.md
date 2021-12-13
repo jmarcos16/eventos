@@ -26,7 +26,7 @@ $ artisan key:generate
 
 Lembrando que sera necessário ter o composer e o PHP já instalado.
 
-Em seguida vá ate o arquivo .env e procure pelo campo abaixo.
+Em seguida vá ate o arquivo .env e procure pelo campo abaixo, altere o DB_DATABASE para events.
 
 ```
 
