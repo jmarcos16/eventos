@@ -213,6 +213,21 @@ div .form-group {
     display: flex;
 }
 
+/*Page Dashboard*/
+
+.dashboard-title-container{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.dashboard-events-container th{
+    width: 25%;
+}
+
+.dashboard-events-container a{
+    text-decoration: none;
+}
+
 /*Footer*/
 
 footer{
